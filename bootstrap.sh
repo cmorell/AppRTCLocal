@@ -36,8 +36,3 @@ go install collidermain
 cd apprtc
 npm install
 grunt
-
-
-
-
-
