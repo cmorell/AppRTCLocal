@@ -35,4 +35,9 @@ go get collidermain
 go install collidermain
 cd apprtc
 npm install
+compiler=/home/vagrant/apprtc/node_modules/closurecompiler/compiler/compiler.jar
+if [ ! -f $compiler ]; then
+  mv /home/vagrant/apprtc/node_modules/closurecompiler/compiler/closure-compiler-v20160713.jar $compiler
+fi
 grunt
+
